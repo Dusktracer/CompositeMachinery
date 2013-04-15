@@ -49,15 +49,15 @@ public class CMBasicMachine extends BlockAdvanced {
 		   this.iconOilFabricator = par1IconRegister.registerIcon("archtikz:oilFabricator");
 	}
 	
-	public Icon getIcon(int side, int metadata)
+	public Icon getBlockTextureFromSideAndMetadata(int side, int metadata)
 	{
 		if (side == metadata + 2)
 		{
-			return this.iconOilFabricator;
+			return this.iconMachineSide;
 		}
 		else if (side == ForgeDirection.getOrientation(metadata + 2).getOpposite().ordinal())
 		{
-			return this.iconInput;
+			return this.iconOilFabricator;
 		}
 		else if (side == 0 || side == 1)
 		{
