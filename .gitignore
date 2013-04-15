@@ -6,8 +6,8 @@
 LICENSE.txt
 CHANGELOG
 
-!/src/minecraft/mods/
-!/src/minecraft/mods/archtikz/*
-/src/
-/src/minecraft/
-/src/minecraft/*
+*
+src/*
+src/minecraft/*
+!src/minecraft/mods/
+!src/minecraft/mods/*
