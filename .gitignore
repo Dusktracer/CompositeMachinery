@@ -10,6 +10,7 @@ CHANGELOG
 /src/minecraft/*
 /src/minecraft/mekanism/api/
 !/src/minecraft/mods/archtikz/
+!/src/minecraft/mods/*
 /src/minecraft/universalelectricity
 /src/minecraft/universalelectricity/components
 !/resources/
