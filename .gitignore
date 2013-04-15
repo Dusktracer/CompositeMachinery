@@ -6,8 +6,11 @@
 LICENSE.txt
 CHANGELOG
 
-*
-src/*
-src/minecraft/*
-!src/minecraft/mods/
-!src/minecraft/mods/*
+/*
+!/src
+/src/*
+!/src/minecraft
+/src/minecraft/*
+!/src/minecraft/mods
+*.DS_Store
+*.gitignore
