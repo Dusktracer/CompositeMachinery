@@ -48,6 +48,7 @@ public class CMBasicMachine extends BlockAdvanced {
 		  this.iconOilFabricator = par1IconRegister.registerIcon("archtikz:oilFabricator");    
 	}
 	
+	// Should add the texture correctly now.
 	public Icon getBlockTextureFromSideAndMetadata(int side, int metadata)
 	{
 		if (side == metadata + 2)
