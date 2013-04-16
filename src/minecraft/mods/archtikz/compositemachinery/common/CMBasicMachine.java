@@ -32,8 +32,7 @@ public class CMBasicMachine extends BlockAdvanced {
 	private Icon iconInput;
 	private Icon iconOutput;
 	private Icon iconOilFabricator;
-	private Icon iconCoalGenerator;
-	private Icon iconBatteryBox;
+
 
 	public CMBasicMachine(int id, int textureIndex) {
 		super(id, UniversalElectricity.machine);
@@ -42,11 +41,11 @@ public class CMBasicMachine extends BlockAdvanced {
 	@Override
 	public void registerIcons(IconRegister par1IconRegister)
 	{
-		   this.blockIcon = par1IconRegister.registerIcon("archtikz:machine");
-		 //  this.iconInput = par1IconRegister.registerIcon("archtikz:machineinput");
-		   this.iconOutput = par1IconRegister.registerIcon("archtikz:machineoutput");
-		   this.iconMachineSide = par1IconRegister.registerIcon("archtikz:machineside");
-		   this.iconOilFabricator = par1IconRegister.registerIcon("archtikz:oilFabricator");
+		  this.blockIcon = par1IconRegister.registerIcon("archtikz:machine");
+		  this.iconInput = par1IconRegister.registerIcon("archtikz:machineinput");
+		  this.iconOutput = par1IconRegister.registerIcon("archtikz:machineoutput");
+		  this.iconMachineSide = par1IconRegister.registerIcon("archtikz:machineside");
+		  this.iconOilFabricator = par1IconRegister.registerIcon("archtikz:oilFabricator");    
 	}
 	
 	public Icon getBlockTextureFromSideAndMetadata(int side, int metadata)
